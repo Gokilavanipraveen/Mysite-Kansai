@@ -57,7 +57,7 @@
                     
     
     
-    <module>ui.frontend</module>
+ <!--   <module>ui.frontend</module> -->
                      
     
     
@@ -92,12 +92,12 @@
     <module>dispatcher.cloud</module>
                      
     
-    <module>ui.tests</module>-->
+    <module>ui.tests</module>
     
                   
     
     
-    <module>ui.frontend.react.forms.af</module>
+    <module>ui.frontend.react.forms.af</module>-->
               
     
     
@@ -118,7 +118,7 @@
                     
     
     
-    <aem.port>8080</aem.port>
+    <aem.port>4502</aem.port>
                     
     
     
