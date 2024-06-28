@@ -1,0 +1,19 @@
+
+<sly data-sly-use.model="com.mysite.core.models.CustomMultifieldModel">
+${model.listFrom}
+
+<sly data-sly-test="${model.listFrom == 'V1'}">
+<ul data-sly-list.tt="${model.files}">
+        <li class="">${tt.fileReference}</li>
+        <li class="">${tt.desc}</li>
+        <br>
+    </ul></sly>
+    
+<sly data-sly-test="${model.listFrom == 'V2'}"> 
+<ul data-sly-list.tt="${model.filesv2}">
+        <li class="">${tt.fileReference}</li>
+        <li class="">${tt.text}</li>
+        <li class="">${tt.path}</li>
+        <br>
+    </ul></sly>
+</sly>

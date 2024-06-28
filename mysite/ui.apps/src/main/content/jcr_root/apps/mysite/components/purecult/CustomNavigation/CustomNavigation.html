@@ -1,0 +1,6 @@
+<sly data-sly-use.model="com.mysite.core.models.CustomNavigation"/>
+
+
+<sly data-sly-list.maps="${model.map}">
+<li> path : ${maps} , Name :${model.map[maps]}</li>
+</sly>

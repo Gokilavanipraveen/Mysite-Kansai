@@ -8,8 +8,8 @@
         cq:template="/conf/mysite/settings/wcm/templates/benefits-enrollment"
         jcr:primaryType="cq:PageContent"
         jcr:title="Benefits Enrollment Form template"
-        sling:resourceType="mysite/components/adaptiveForm/page"
         sling:configRef="/conf/mysite/forms"
+        sling:resourceType="mysite/components/adaptiveForm/page"
         guideComponentType="fd/af/templates">
         <guideContainer
             fd:version="2.1"
@@ -702,8 +702,7 @@
                     linkTarget="_self"
                     name="logoImage"
                     titleValueFromDAM="false"
-                    width="0">
-                </image>
+                    width="0"/>
                 <text
                     jcr:lastModified="{Date}2023-04-24T17:45:54.421Z"
                     jcr:lastModifiedBy="admin"

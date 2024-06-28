@@ -1,0 +1,17 @@
+<sly data-sly-use.model="com.mysite.core.models.CustomCarousel">
+${model.carousellistFrom}
+
+<sly data-sly-test="${model.carousellistFrom == 'V1'}">
+	<ul data-sly-list.carouselv1 ="${model.carouselv1}">
+	<li class="">${carouselv1.carouseltext}</li>
+	</ul>
+</sly>
+
+<sly data-sly-test="${model.carousellistFrom == 'V2'}">
+	<ul data-sly-list.carouselv2 ="${model.carouselv2}">
+	<li class="">${carouselv2.carouseltext}</li>
+    <li class="">${carouselv2.carouselfileReference}</li>
+	</ul>
+</sly>
+
+</sly>

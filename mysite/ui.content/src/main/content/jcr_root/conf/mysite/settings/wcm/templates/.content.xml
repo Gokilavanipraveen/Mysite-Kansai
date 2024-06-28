@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:rep="internal" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0"
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
+    <basic-af/>
+    <benefit-summary-request/>
+    <benefits-enrollment/>
+    <blank-af/>
+    <blank-af-v2/>
+    <catalog-page/>
+    <category-page/>
+    <consent-form/>
+    <contact-details-update/>
+    <contact-us-form/>
+    <give-feedback/>
+    <landing-page/>
+    <log-service-request/>
+    <product-page/>
+    <purchase-request/>
+    <quality-control-inspection/>
+    <request-for-statement/>
+    <root-page/>
+    <safety-inspection/>
     <page-content/>
     <xf-web-variation/>
     <rep:policy/>
+    <kansai-home/>
+    <custom-check/>
+    <xf-template/>
 </jcr:root>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="List"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    extraClientlibs="[core.wcm.components.list.v1.editor]"
+    helpPath="https://www.adobe.com/go/aem_cmp_list_v1"
+    trackingFeature="core-components:list:v1">
+    <content
+        granite:class="cmp-list--editor"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <listSettings
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="List Settings"
+                        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <carousellistFrom
+                                        granite:class="cq-dialog-dropdown-showhide"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                        fieldLabel="Build list using"
+                                        name="./carousellistFrom">
+                                        <granite:data
+                                            jcr:primaryType="nt:unstructured"
+                                            cq-dialog-dropdown-showhide-target=".list-option-listfrom-showhide-target"/>
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <V1
+                                                jcr:primaryType="nt:unstructured"
+                                                text="only Text"
+                                                value="V1"/>
+                                            <V2
+                                                jcr:primaryType="nt:unstructured"
+                                                text="Image &amp; Text"
+                                                value="V2"/>
+                                        </items>
+                                    </carousellistFrom>
+                                    <V1container
+                                        granite:class="hide list-option-listfrom-showhide-target foundation-layout-util-vmargin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <granite:data
+                                            jcr:primaryType="nt:unstructured"
+                                            showhidetargetvalue="V1"/>
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <multifield
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                                composite="{Boolean}true">
+                                                <field
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/container"
+                                                    name="./carouselv1">
+                                                    <items jcr:primaryType="nt:unstructured">
+                                                        <text
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                            fieldLabel="Descrption"
+                                                            name="./carouseltext"
+                                                            useFixedInlineToolbar="{Boolean}true"/>
+                                                    </items>
+                                                </field>
+                                            </multifield>
+                                        </items>
+                                    </V1container>
+                                    <V2container
+                                        granite:class="hide list-option-listfrom-showhide-target foundation-layout-util-vmargin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <granite:data
+                                            jcr:primaryType="nt:unstructured"
+                                            showhidetargetvalue="V2"/>
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <multifield
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                                composite="{Boolean}true">
+                                                <field
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/container"
+                                                    name="./carouselv2">
+                                                    <items jcr:primaryType="nt:unstructured">
+                                                        <file
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
+                                                            class="cq-droptarget"
+                                                            fieldLabel="Image asset"
+                                                            fileNameParameter="./fileName"
+                                                            fileReferenceParameter="./carouselfileReference"
+                                                            mimeTypes="[image/gif,image/jpeg,image/png,image/tiff,image/svg+xml]"
+                                                            name="./carouselfile"/>
+                                                        <text
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                            fieldLabel="Descrption"
+                                                            name="./carouseltext"
+                                                            useFixedInlineToolbar="{Boolean}true"/>
+                                                    </items>
+                                                </field>
+                                            </multifield>
+                                        </items>
+                                    </V2container>
+                                </items>
+                            </column>
+                        </items>
+                    </listSettings>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

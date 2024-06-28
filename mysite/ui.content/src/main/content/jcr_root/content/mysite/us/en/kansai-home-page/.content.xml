@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-06-25T15:38:52.941+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/mysite/settings/wcm/templates/kansai-home"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Kansai Home Page"
+        sling:resourceType="mysite/components/page"
+        pageTitle="Home Page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="mysite/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container"
+                layout="responsiveGrid">
+                <custom_carousel_1317090787
+                    jcr:created="{Date}2024-06-14T12:18:33.294+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-06-14T12:34:25.113+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/purecult/Custom carousel"
+                    autopauseDisabled="false"
+                    autoplay="true"
+                    delay="3000"
+                    textIsRich="true">
+                    <text_590819594
+                        jcr:created="{Date}2024-06-14T12:34:21.600+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-06-14T12:34:58.117+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/text"
+                        text="&lt;p>&lt;b>&lt;/b>hello&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <text
+                        jcr:created="{Date}2024-06-14T12:32:46.541+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-06-14T12:33:19.898+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/text"
+                        text="&lt;p>hi there&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                </custom_carousel_1317090787>
+                <custommultifield
+                    jcr:created="{Date}2024-06-18T11:51:06.747+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-06-18T11:52:33.746+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/purecult/CustomMultifield"
+                    listFrom="V1"
+                    textIsRich="true">
+                    <files jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            desc="sfopjrg"
+                            fileReference="/content/dam/mysite/asset.jpg"/>
+                    </files>
+                    <filesv2 jcr:primaryType="nt:unstructured">
+                        <item0 jcr:primaryType="nt:unstructured"/>
+                    </filesv2>
+                </custommultifield>
+                <custombanner
+                    jcr:created="{Date}2024-06-18T11:52:46.054+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-06-18T11:52:59.273+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/purecult/CustomBanner"
+                    banner="/content/dam/mysite/asset.jpg"
+                    bannertext="&lt;p>kxjbdfnglsv;lmfbg&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+            </container>
+            <container_copy
+                jcr:lastModified="{Date}2024-06-19T12:23:45.970+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container">
+                <custom_carousel
+                    jcr:created="{Date}2024-06-14T12:54:03.064+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-06-14T12:57:11.588+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/purecult/Custom carousel"
+                    autopauseDisabled="false"
+                    autoplay="true"
+                    delay="5000"
+                    textIsRich="true">
+                    <image_1160053298
+                        cq:panelTitle="Image 2"
+                        jcr:created="{Date}2024-06-14T12:55:30.114+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-06-14T12:56:29.618+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Image 2"
+                        sling:resourceType="foundation/components/image"
+                        alt="Image 2"
+                        fileReference="/content/dam/mysite/asset.jpg"
+                        height="250"
+                        width="200"/>
+                    <image
+                        cq:panelTitle="Image 1"
+                        jcr:created="{Date}2024-06-14T12:54:12.852+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-06-14T12:54:42.583+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Image 1"
+                        sling:resourceType="foundation/components/image"
+                        alt="Image 1"
+                        fileName="Nishanth.jpg"
+                        height="250"
+                        width="200">
+                        <file/>
+                    </image>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                    </cq:responsive>
+                </custom_carousel>
+                <contentfragment
+                    jcr:created="{Date}2024-06-21T13:00:33.296+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-06-21T13:03:05.061+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/contentfragment"
+                    displayMode="multi"
+                    fragmentPath="/content/dam/mysite/sample-content-fragment"
+                    paragraphScope="all"
+                    text="Sample Content Fragment Name asef age 22 Address dgnjfhjn"
+                    variationName="v1"/>
+                <contentfragmentlist
+                    jcr:created="{Date}2024-06-21T13:01:03.125+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-06-21T13:03:27.187+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/contentfragmentlist"
+                    maxItems="8"
+                    modelPath="/conf/mysite/settings/dam/cfm/models/sample-content-fragment"
+                    orderBy="jcr:created"
+                    parentPath="/content/dam/mysite"
+                    sortOrder="asc"/>
+                <customnavigation_1609292575
+                    jcr:created="{Date}2024-06-21T17:07:19.376+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-06-25T15:38:52.933+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/purecult/CustomNavigation"
+                    rootpath="/content/mysite/us/en"/>
+            </container_copy>
+            <container_453604312
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container">
+                <experiencefragment
+                    jcr:created="{Date}2024-06-25T10:46:55.548+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-06-25T10:50:51.407+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/mysite/us/en/site/experience-fragment/master"/>
+            </container_453604312>
+        </root>
+        <cq:featuredimage
+            jcr:lastModified="{Date}2024-06-21T17:24:50.255+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v3/image"
+            altValueFromDAM="false"/>
+    </jcr:content>
+    <basic-form-/>
+</jcr:root>

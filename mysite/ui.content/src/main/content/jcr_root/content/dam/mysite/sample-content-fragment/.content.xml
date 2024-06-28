@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a68219c7-156f-4224-a79b-38859c8bb646">
+    <jcr:content
+        cq:name="sample-content-fragment"
+        cq:parentPath="/content/dam/mysite"
+        jcr:lastModified="{Date}2024-06-21T12:59:18.695+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Sample Content Fragment"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-06-21T12:59:18.695+05:30">
+        <data
+            cq:model="/conf/mysite/settings/dam/cfm/models/sample-content-fragment"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                address="&lt;p>fbdfgbsgfsrgfsgaeg&lt;/p>&#xa;"
+                address_x0040_ContentType="text/html"
+                address_x0040_LastModified="{Date}2024-06-21T12:58:51.986+05:30"
+                age="{Long}20"
+                age_x0040_LastModified="{Date}2024-06-21T12:58:51.986+05:30"
+                name="srgfdg"
+                name_x0040_LastModified="{Date}2024-06-21T12:58:51.985+05:30"/>
+            <v1
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                _x0040_variationCreationDate="{Date}2024-06-21T12:58:57.574+05:30"
+                address="&lt;p>dgnjfhjn&lt;/p>&#xa;"
+                address_x0040_ContentType="text/html"
+                address_x0040_LastModified="{Date}2024-06-21T12:59:18.677+05:30"
+                age="{Long}22"
+                age_x0040_LastModified="{Date}2024-06-21T12:59:18.676+05:30"
+                name="asef"
+                name_x0040_LastModified="{Date}2024-06-21T12:59:18.676+05:30"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="0f578d8f-8260-484f-9199-8668db5fc395"
+                _x0040_string_x0040_model="/conf/mysite/settings/dam/cfm/models/sample-content-fragment"
+                _x0040_stringArray_x0040_variations="[v1]"
+                long_x0040_age="{Long}20"
+                string_x0040_address="&lt;p>fbdfgbsgfsrgfsgaeg&lt;/p>&#xa;"
+                string_x0040_name="srgfdg"/>
+            <v1
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="1f402071-8310-465e-85fa-07f6ea3e9ac2"
+                _x0040_string_x0040_model="/conf/mysite/settings/dam/cfm/models/sample-content-fragment"
+                long_x0040_age="{Long}22"
+                string_x0040_address="&lt;p>dgnjfhjn&lt;/p>&#xa;"
+                string_x0040_name="asef"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured">
+            <dam:cfVariations jcr:primaryType="nt:unstructured">
+                <v1
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"/>
+            </dam:cfVariations>
+        </metadata>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <v1
+                    jcr:description="\0"
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="V1"
+                    name="v1">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[name:6981e8a4-28d5-4f90-b308-debb00bc5bcb,age:6981e8a4-28d5-4f90-b308-debb00bc5bcb,address:6981e8a4-28d5-4f90-b308-debb00bc5bcb]"/>
+                </v1>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -176,8 +176,8 @@
                     enabled="{Boolean}true"
                     fieldType="number-input"
                     hideTitle="false"
-                    name="TotalCost"
                     minimum="1"
+                    name="TotalCost"
                     readOnly="{Boolean}true"
                     textIsRich="[true,true]"
                     type="number"
@@ -405,8 +405,7 @@
                     linkTarget="_self"
                     name="logoImage"
                     titleValueFromDAM="false"
-                    width="0">
-                </image>
+                    width="0"/>
                 <text
                     jcr:lastModified="{Date}2023-05-25T06:28:44.438Z"
                     jcr:lastModifiedBy="admin"
@@ -438,5 +437,6 @@
                     textIsRich="true"/>
             </footer>
         </container2>
+        <parsys1/>
     </jcr:content>
 </jcr:root>
